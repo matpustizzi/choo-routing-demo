@@ -8,12 +8,14 @@
     "url" : "https://github.com/matpustizzi/choo-routing-demo.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "budo client.js -p ${PORT-8080} --pushstate --live --open"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "browserify": "^13.1.0",
+  "dependencies": {
     "choo": "^3.2.0"
+  },
+  "devDependencies": {
+    "budo": "^9.0.0"
   }
 }
